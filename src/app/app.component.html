@@ -1,0 +1,17 @@
+<ckeditor 
+    [editor]="Editor" 
+    (change)="onChange($event)" 
+    (ready)="onReady($event)" 
+    data="<h1>Hello, world!</h1>"
+    [config]="config" >
+</ckeditor>
+<div class="display-container">
+    <div class="display-block">
+        {{markdownText}}
+    </div>
+</div>
+<div class="display-container">
+    <div class="display-block">
+        <p [innerHTML]="markdownText | markdown"></p>
+    </div>
+</div>

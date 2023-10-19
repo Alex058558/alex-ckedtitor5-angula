@@ -1,0 +1,16 @@
+:host ::ng-deep .ck-editor__editable_inline {
+    min-height: 150px;
+}
+
+.display-container {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border: 1px solid gray;
+    height: auto;
+}
+
+.display-block {
+    width: 100%;
+    word-break: break-all;
+}
