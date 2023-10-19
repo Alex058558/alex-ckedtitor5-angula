@@ -1,5 +1,7 @@
 # AngularCkeditor
 
+整合 CKEditor 文本編輯器到 Angular 專案
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
 ## Development server
